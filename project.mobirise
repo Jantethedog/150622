@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Site-08-12_1242",
-    "currentPage": "page1.html",
+    "currentPage": "page4.html",
     "theme": {
       "name": "mobirise5",
       "title": "Mobirise 5",
@@ -46,7 +46,7 @@
         "url": "https://fonts.googleapis.com/css?family=Jost:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i"
       }
     ],
-    "uniqCompNum": 53,
+    "uniqCompNum": 54,
     "versionPublish": "5.6.11",
     "screenshot": "screenshot.png",
     "witsec-language": "de",
@@ -61,7 +61,7 @@
     "gdpr": false,
     "witsec-mailform": false,
     "witsec-white-label": true,
-    "publishChangesOnly": false
+    "publishChangesOnly": true
   },
   "pages": {
     "index.html": {
@@ -2666,7 +2666,7 @@
           },
           "_name": "header18",
           "_sourceTheme": "mobirise5",
-          "_customHTML": "<section data-bs-version=\"5.1\" class=\"header18\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"11\" step=\"1\">\n        <select title=\"Align\" name=\"contentAlign\">\n            <option value>Left</option>\n            <option value=\"justify-content-center\" selected>Center</option>\n            <option value=\"justify-content-end\">Right</option>\n        </select>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubitle\">\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background6.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#bed3f9\" selected>4479d9\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <header condition=\"bg.type === 'video'\">Fallback Image</header>\n        <input type=\"image\" title=\"Fallback Image\" value=\"../_images/background13.jpg\" name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n        <input type=\"checkbox\" title=\"Gradient Bg\" name=\"gradientBg\" checked condition=\"bg.type == 'color'\">\n        <input type=\"color\" title=\"Color 2\" name=\"gradientColor2\" value=\"#7cdc7b\" condition=\"gradientBg && bg.type == 'color'\">\n        <input type=\"range\" inline name=\"gradientAngle\" title=\"Gradient Angle\" min=\"0\" max=\"360\" value=\"261\" step=\"1\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#4479d9\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.2\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"color\" name=\"lineColor\" title=\"Line Color\" value=\"#174498\">\n        <input type=\"color\" name=\"cardColor\" title=\"Color\" value=\"#ffffff\">\n    </mbr-parameters>\n\n    <div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-12 col-md-{{textWidth}}\">\n                <blockquote>\n                <h5 class=\"mbr-section-title mbr-fonts-style mb-2\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\"><b>12.08.2022</b></h5>\n                <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".mbr-text\" style=\"text-align: justify\">Kennst du es, wenn einem manchmal einfach Sachen, Angewohnheiten oder andere Dinge auffallen? Dafür habe ich diese Unterseite – hier möchte ich einfach schöne und lustige Dinge aufschreiben, die mir im Alltag auffallen, bzw. die passieren :)</p></blockquote>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"header18\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"11\" step=\"1\">\n        <select title=\"Align\" name=\"contentAlign\">\n            <option value>Left</option>\n            <option value=\"justify-content-center\" selected>Center</option>\n            <option value=\"justify-content-end\">Right</option>\n        </select>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubitle\">\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background6.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#bed3f9\" selected>4479d9\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <header condition=\"bg.type === 'video'\">Fallback Image</header>\n        <input type=\"image\" title=\"Fallback Image\" value=\"../_images/background13.jpg\" name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n        <input type=\"checkbox\" title=\"Gradient Bg\" name=\"gradientBg\" checked condition=\"bg.type == 'color'\">\n        <input type=\"color\" title=\"Color 2\" name=\"gradientColor2\" value=\"#7cdc7b\" condition=\"gradientBg && bg.type == 'color'\">\n        <input type=\"range\" inline name=\"gradientAngle\" title=\"Gradient Angle\" min=\"0\" max=\"360\" value=\"261\" step=\"1\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#4479d9\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.2\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"color\" name=\"lineColor\" title=\"Line Color\" value=\"#174498\">\n        <input type=\"color\" name=\"cardColor\" title=\"Color\" value=\"#ffffff\">\n    </mbr-parameters>\n\n    <div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-12 col-md-{{textWidth}}\">\n                <blockquote>\n                <h5 class=\"mbr-section-title mbr-fonts-style mb-2\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\"><b>12.09.2022</b></h5>\n                <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".mbr-text\" style=\"text-align: justify\">Die letzten Tage und Wochen waren anstrengend – für uns beide. Wir konnten uns 5 Wochen nicht sehen und mussten unsere Beziehung im Prinzip nochmal von Grund auf neu aufbauen, damit es auch unter diesen Bedingungen weiterhin funktionierte – das war sicherlich für uns beide äußerst fordernd. Zusätzlich zum ein oder Anderen Streit waren wir glaube ich auch beide ein paar Mal in verschieden Weisen verletzt oder enttäuscht vom jeweils anderen, was das Ganze nicht gerade unkomplizierter machte, aber trotzdem bin ich mir einer Sache nun sicherer, als ich es bisher je war: Ich möchte für dich da sein, dir helfen und zu dir stehen – mir ist klar, dass es für dich in den letzten Tagen schwierig war und es sicher auch noch zusätzliche Faktoren gab, die dir das Leben nicht gerade leichter gemacht haben und es tut mir auch aufrichtig leid, wenn ich selbst manchmal ein solcher Faktor war. Aber ich weiß, dass ich es wieder gut machen möchte, ich weiß dass ich für dich da sein möchte und bin mir sicher, dass wir (wieder) gut zusammenfinden. Denn du bist mir sehr wichtig und ich habe dich sehr gern. <br>Bitte vergiss das nicht!</p></blockquote>\n            </div>\n        </div>\n    </div>       \n</section>",
           "_cid": "tev1Gbc8EM",
           "_anchor": "header18-12",
           "_PHPplaceholders": [],
@@ -2675,6 +2675,28 @@
           "_global": false,
           "_once": false,
           "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "background-color": "@bgColor",
+            "blockquote": {
+              "border-color": "@lineColor",
+              "border-radius": "4px",
+              "background-color": "@cardColor"
+            }
+          },
+          "_name": "content7",
+          "_sourceTheme": "mobirise5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"content7\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"2\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"10\" step=\"1\">\n        <input type=\"color\" name=\"lineColor\" title=\"Line Color\" value=\"#7cdc7b\">\n        <input type=\"color\" name=\"cardColor\" title=\"Color\" value=\"#fafafa\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-12 col-md-{{textWidth}}\">\n                <blockquote>\n                <h5 class=\"mbr-section-title mbr-fonts-style mb-2\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\"><b>12.08.2022</b></h5>\n                <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".mbr-text\">Kennst du es, wenn einem manchmal einfach Sachen, Angewohnheiten oder andere Dinge auffallen? Dafür habe ich diese Unterseite – hier möchte ich einfach schöne und lustige Dinge aufschreiben, die mir im Alltag auffallen, bzw. die passieren :)</p></blockquote>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "thcsqApruq",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content7-1h"
         },
         {
           "alias": false,
